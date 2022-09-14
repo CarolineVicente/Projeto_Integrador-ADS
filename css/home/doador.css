@@ -13,7 +13,6 @@
   object-position: left;
 }
 
-
 .seja-doador h2 {
   padding-left: 30px;
   margin-bottom: 32px;
@@ -29,7 +28,7 @@
 .seja-doador p {
   text-transform: uppercase;
   margin-bottom: 32px;
-  padding-left: 30px; 
+  padding-left: 30px;
 }
 
 .button {
@@ -53,22 +52,24 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0px;
-  
+
 }
 
 @media (max-width: 800px) {
   .seja-doador {
     box-shadow: initial;
   }
+
   .seja-doador {
     grid-template-columns: 1fr;
   }
+
   .seja-doador {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .seja-doador {
     display: none;
   }
 }
-
