@@ -7,11 +7,10 @@
   height: 620px;
   width: 100%;
   margin-bottom: 40px;
-  display: flex;
   position: relative;
 }
 
-.intro-img::after{
+.intro-img::before{
   content: "";
   background-image: url("../../img/fotos/grupopessoas.jpg");
   background-position: center;
@@ -45,7 +44,7 @@
   top: -120px;
   position: absolute;
   display: block;
-  z-index: -1;
+  z-index: -2;
 }
 
 .introducao-conteudo h1 {

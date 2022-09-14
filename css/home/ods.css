@@ -7,7 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 60px;
-  margin-top: 30px;
   margin-bottom: 60px;
   margin-left: 40px;
 }

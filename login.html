@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <div class="intro-img">
+  <div class="intro-img-login">
     <header class="header-bg">
       <div class="header container">
         <a href="./home.html">
@@ -39,48 +39,49 @@
                   href="login.html">Login</a></button></li>
           </ul>
         </nav>
+      </div>
     </header>
 
-    <main class="introducao-bg">
-      <div class="introducao container">
-        <div class="introducao-conteudo">
-          <h1 class="font-1-xxl cor-0">Juntos por uma cidadania mais Justa<span class="cor-p1">.</span></h1>
-          <p class="font-2-l cor-9">ImigraKaisen sempre atuando pelos direitos e cidadania dos imigrantes e refugiados.
-          </p>
+    <section class="login" aria-label="Login de Acesso">
+        <div class="logo">
+          <img src="./img/imigrakaisen.svg"" alt=" ImigraKaisen">
+          <h1 class="font-3-s cor-0">
+            Sempre apoiando Imigrantes e Refugiados
+          </h1>
         </div>
-    </main>
-  </div>
 
+        <div class="login-acess">
+          <form action="js/login.js" method="POST" class="form">
+            <h2 class="font-3-s cor-p3">Entrar</h2>
+            <p class="login-username cor-8">
+              <label for="username">
+                E-mail de cadastro:
+                <span class="required cor-p3">*</span>
+              </label>
+              <input class="username-text" type="text" name="username" placeholder="Digite seu Email"
+                autocomplete="username" value>
+            </p>
+            <p class="login-password cor-8">
+              <label for="password ">Senha:
+                <span class="required cor-p3">*</span>
+              </label>
+              <input class="password-text" name="password" type="password" placeholder="Senha">
+            </p>
+            <span><input class="checkbox" type="checkbox" name="rememberme" type="checkbox" value="forever"><span
+              class="cor-8">Lembre-me</span></label>
 
-  <section class="ods" aria-label="ods">
-    <div class="ods-conteudo">
-      <h2 class="container font-2-xl cor-0">Objetivos de Desenvolvimento Sustentável<span class="cor-p1">.</span></h2>
-      <p class="font-2-l cor-9">Nossa atuação está de acordo com os Objetivos de Desenvolvimento Sustentável da ONU</p>
-    </div>
-    <ul>
-      <li><img src="./img/ods/3.svg" alt="Saúde e Bem-Estar" width="140" height="36"></li>
-      <li><img src="./img/ods/4.svg" alt="Educação de Qualidade" width="140" height="36"></li>
-      <li><img src="./img/ods/5.svg" alt="Igualdade de Gênero" width="140" height="36"></li>
-      <li><img src="./img/ods/8.svg" alt="Trabalho decente e Crescimento Econômico" width="140" height="36"></li>
-      <li><img src="./img/ods/10.svg" alt="Redução das Desiguidades" width="140" height="36"></li>
-      <li><img src="./img/ods/16.svg" alt="Paz, Justiça e Instituições Eficazes" width="140" height="36"></li>
-    </ul>
-  </section>
-
-  <section class="seja-doador" aria-label="Doador">
-    <div class="seja-doador-conteudo ">
-      <h3 class="container font-2-xl cor-0">Seja um doador !</h3>
-      <h2 class="container font-2-s cor-9">O IMK precisa de seu apoio para continuar a luta pelo trabalho digno e pela
-        implementação de políticas que garantam o respeito aos direitos humanos dos trabalhadores imigrantes e suas
-        famílias.</h2>
-      <p>
-        <button class="button container font-1-s cor-11" name="doador" value="doador"><a href="doador.html">Faça sua
-            doação!</a></button>
-      </p>
-    </div>
-    <picture>
-      <img src="./img/fotos/menino.jpg" alt="Criança Sorrindo">
-    </picture>
+            <div class="login-recuperar-conta cor-p3">
+                <div><a href="/">Criar Conta</a> |
+                  <a href="/">Esqueci Minha Senha</a>
+                </div>
+            </div>
+            </p>
+            <div class="login-button">
+              <button type="submit" class="button1 font-1-s cor-0" name="login" value="Acessar">Acessar</button>
+            </div>
+        </div>
+      </div>
+      </form>
   </section>
 
   <footer class="footer-bg">

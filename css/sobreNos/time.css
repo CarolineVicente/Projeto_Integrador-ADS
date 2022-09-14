@@ -1,0 +1,33 @@
+
+.time-bg{
+  background-color: var(--cor-p2);
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 90px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 70px;
+}
+
+.time-bg::before {
+  content: "";
+  border-radius: 50%;
+  background: var(--cor-p1);
+  width: 550px;
+  height: 550px;
+  left: 710px;
+  top: -190px;
+  position: absolute;
+  display: block;
+  z-index: -2;
+}
+
+.time{
+  max-width: 800px;
+  text-align: center;
+}
+
+.time h1{
+  padding: 20px;
+}
