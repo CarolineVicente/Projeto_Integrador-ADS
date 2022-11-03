@@ -24,6 +24,10 @@
 @import "./sobreNos/missao-visao-valores.css";
 @import "./sobreNos/time.css";
 
+/* Cadastro Usuário */
+
+@import "./formulario/cadastro.css";
+
 
 
 
