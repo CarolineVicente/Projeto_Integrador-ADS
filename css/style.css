@@ -28,8 +28,11 @@
 @import "./sobreNos/time.css";
 
 /* Cadastro Usuário */
-
 @import "./formulario/cadastro.css";
+
+/* Fale Conosco */
+@import "./formulario/faleconosco.css";
+
 
 
 

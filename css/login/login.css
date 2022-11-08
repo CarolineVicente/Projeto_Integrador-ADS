@@ -20,6 +20,10 @@
   z-index: -1;
 }
 
+.introducao-bg{
+  margin-bottom: 200px;
+}
+
 .logo{
   display: flex;
   flex-wrap: wrap;
