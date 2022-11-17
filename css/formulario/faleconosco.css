@@ -3,7 +3,9 @@
   border-radius: 20px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px royalblue;
-  max-width: 75%;
+  width: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .container .content{
@@ -107,6 +109,9 @@
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
+  background-color: var(--cor-p5);
 }
+
+
 
 
