@@ -1,6 +1,5 @@
 .intro-img-cadastro {
-  background:
-    hsla(199, 75%, 75%, 80%);
+  background: hsla(199, 75%, 75%, 80%);
   height: 700px;
   width: 100%;
   margin-bottom: 40px;
@@ -19,7 +18,7 @@
   z-index: -1;
 }
 
-.box{
+.box {
   color: white;
   width: 0 auto;
   background-color: rgb(37, 109, 133);
@@ -30,20 +29,20 @@
   margin-top: 150xp;
   margin-bottom: 150xp;
 }
-fieldset{
+fieldset {
   border: 3px solid royalblue;
 }
-legend{
+legend {
   border: 1px solid royalblue;
   padding: 10px;
   text-align: center;
   background-color: royalblue;
   border-radius: 15px;
 }
-.inputBox{
+.inputBox {
   position: relative;
 }
-.inputUser{
+.inputUser {
   background: none;
   border: none;
   border-bottom: 1px solid white;
@@ -53,28 +52,32 @@ legend{
   width: 100%;
   letter-spacing: 2px;
 }
-.labelInput{
+.labelInput {
   position: absolute;
   top: 0px;
   left: 0px;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 .inputUser:focus ~ .labelInput,
-.inputUser:valid ~ .labelInput{
+.inputUser:valid ~ .labelInput {
   top: -20px;
   font-size: 12px;
   color: dodgerblue;
 }
-#data_nascimento{
+#data_nascimento {
   border: none;
   padding: 8px;
   border-radius: 10px;
   outline: none;
   font-size: 15px;
 }
-#submit{
-  background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+#submit {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 92, 197),
+    rgb(90, 20, 220)
+  );
   width: 100%;
   border: none;
   padding: 15px;
@@ -83,10 +86,10 @@ legend{
   cursor: pointer;
   border-radius: 10px;
 }
-#submit:hover{
-  background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
-}
-
-.footer{
-  margin-top: 100px;
+#submit:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 80, 172),
+    rgb(80, 19, 195)
+  );
 }
